@@ -1,7 +1,7 @@
 WordPress Laravel Bootstrap
 ======
 
-> Use any functions, methods, libraries of Laravel in any WordPress projects
+> A WordPress plugin help you use functions, methods, libraries of Laravel in any WordPress projects
 
 ## Requiments
 
