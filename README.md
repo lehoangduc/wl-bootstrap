@@ -14,7 +14,7 @@ WordPress Laravel Bootstrap
 - Define Laravel source code path in "wp-config.php" as a constant:
 
 ```
-define('LARAVEL_PATH', '/srv/www/laravel-example-project'); // Make sure this is ponited to same server
+define('LARAVEL_PATH', '/srv/www/laravel-example-project'); // Make sure this is pointed to same server
 ```
 
 ## Usage
