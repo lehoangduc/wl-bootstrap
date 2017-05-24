@@ -34,7 +34,7 @@ function wl_bootstrap() {
             \Illuminate\Session\Middleware\StartSession::class
         ])
         ->then(function () {
-            return Response::instance();
+            return response('', 200, []);
         });
 
     // Set cookie from response headers
