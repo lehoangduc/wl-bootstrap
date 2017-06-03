@@ -8,7 +8,7 @@ Plugin Name: WL_Bootstrap
 Description: This plugin allows you to use any functions, methods, libraries of Laravel in WordPress project
 Author: Duc Le
 Version: 1.0
-Author URI: https://engineering.golr.xyz
+Author URI: https://github.com/lehoangduc
 */
 
 function wl_bootstrap() {
@@ -47,4 +47,4 @@ function wl_bootstrap() {
     }
 }
 
-add_action('wp', 'wl_bootstrap');
+add_action('plugins_loaded', 'wl_bootstrap');
