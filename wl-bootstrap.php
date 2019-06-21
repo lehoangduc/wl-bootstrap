@@ -16,7 +16,7 @@ function wl_bootstrap() {
         throw new Exception('LARAVEL_PATH is not configured.');
     }
 
-    require LARAVEL_PATH . '/bootstrap/autoload.php';
+    require LARAVEL_PATH . '/vendor/autoload.php';
 
     $app = require_once LARAVEL_PATH . '/bootstrap/app.php';
 
